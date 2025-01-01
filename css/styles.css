@@ -1,304 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+
+/* my imported fonts */
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Rubik+Vinyl&family=Sixtyfour&display=swap");
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body,
 html {
-  width: 100%;
-  min-height: 100%;
+    width: 100%;
+    min-height: 100%;
 }
 
 body {
-  display: flex;
-  padding: 100px;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  background-color: #282a56;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: #282a56;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  gap: 90px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
 }
 
 .word {
-  max-width: max-content;
-  display: flex;
-  gap: 20px;
+    max-width: max-content;
+    display: flex;
+    gap: 20px;
 }
 
 .word > span {
-  position: relative;
-  padding: 20px 30px;
-  width: max-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 90px;
-  max-height: 90px;
-  border: 6px solid grey;
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.8s ease-in-out;
-}
-
-/* Sample CSS for the WHY word */
-
-.whyWLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
-}
-
-.whyHLetter {
-  font-size: 30px;
-  font-weight: bold;
-  color: darkgoldenrod;
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
-}
-
-.whyYLetter {
-  font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
-}
-
-/* DID word */
-
-.didDLetter {
-}
-
-.didILetter {
-}
-
-.didDTwoLetter {
-}
-
-/* THE word */
-
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-}
-
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
+    position: relative;
+    padding: 20px 30px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90px;
+    max-height: 90px;
+    border: 6px solid grey;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.8s ease-in-out;
 }
 
 /* SYMBOLS */
-
-.hyphen {
-}
-.exclamation-mark {
-}
+.hyphen,
+.exclamation-mark,
 .question-mark {
+    font-size: 60px;
+    font-weight: bold;
+    color: #b8860b;
+    text-decoration: none;
+}
+
+/* letters A, E, F, H, M, N and T */
+.letter-a,
+.letter-e,
+.letter-f,
+.letter-h,
+.letter-m,
+.letter-n,
+.letter-t {
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+/* letters I, K, L, V, W and Y */
+.letter-i,
+.letter-k,
+.letter-l,
+.letter-v,
+.letter-w,
+.letter-y {
+    font-size: 50px;
+    font-family: "Sixtyfour", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "BLED" 0, "SCAN" 0;
+    color: #0ff;
+}
+
+/* letters B, C, D, G and O */
+.letter-b,
+.letter-c,
+.letter-d,
+.letter-g,
+.letter-o {
+    font-size: 70px;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+/* letters P, R, S and U */
+.letter-p,
+.letter-r,
+.letter-s,
+.letter-u {
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #c8c8c8;
+}
+
+/* letters spelling out "fun times" */
+.fun-times {
+    font-size: 55px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+
+/* letters spelling out "who done it" */
+.who-done-it {
+    font-size: 80px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f00;
+}
+
+/* letters spelling out "i did it" */
+.i-did-it {
+    font-size: 70px;
+    font-family: "Agu Display", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "MORF" 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* letters spelling out "you did" */
+.you-did {
+    font-size: 65px;
+    font-weight: bold;
+    text-decoration: overline;
+    color: rgb(184, 134, 11);
+}
+
+/* hypothetically unimportant ransom words */
+.strike span {
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: line-through;
+    color: black;
+}
+
+/* all vowels */
+.vowel {
+    font-size: 120px;
 }
